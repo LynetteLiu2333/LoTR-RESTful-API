@@ -13,8 +13,8 @@ This is the LOTR Passport API, a RESTful API for managing characters from the Lo
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/LOTR-Passport-API.git
-    cd LOTR-Passport-API
+    git clone https://github.com/LynetteLiu2333/LoTR-RESTful-API.git
+    cd LoTR-RESTful-API
     ```
 
 2. **Install dependencies:**
