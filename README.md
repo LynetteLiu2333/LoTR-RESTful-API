@@ -2,6 +2,8 @@
 
 ## Table of Contents
 
+- [Overview](#overview)
+- [Features](#features)
 - [Installation](#installation)
 - [Endpoints](#endpoints)
 - [Testing](#testing)
@@ -52,9 +54,7 @@ The Lord of the Rings (LOTR) Passport API is a RESTful web service designed to m
 
 ## Endpoints
 
-The API provides the following endpoints for managing characters:
-
-### Authentication
+The API includes the following endpoints for user registration, login, and character management:
 
 - **POST /api/users/register**
 
@@ -77,8 +77,6 @@ The API provides the following endpoints for managing characters:
         "password": "examplepassword"
     }
     ```
-
-### Characters
 
 - **GET /api/characters**
 
@@ -130,8 +128,4 @@ The API provides the following endpoints for managing characters:
 
 ## Testing
 
-To run the tests, use the following command:
-
-```bash
-npm test
-```
+All endpoints have been tested using Postman. Please click the [**link**](https://documenter.getpostman.com/view/36578609/2sA3duFDM9) to view the complete documentation for the endpoint testing.
