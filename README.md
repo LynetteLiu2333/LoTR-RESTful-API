@@ -1,12 +1,24 @@
 # Lord of the Rings Passport API
 
-This is the LOTR Passport API, a RESTful API for managing characters from the Lord of the Rings universe.
-
 ## Table of Contents
 
 - [Installation](#installation)
 - [Endpoints](#endpoints)
 - [Testing](#testing)
+
+## Overview
+
+The Lord of the Rings (LOTR) Passport API is a RESTful web service designed to manage and provide information about characters from the Lord of the Rings universe. This API allows users to perform CRUD (Create, Read, Update, Delete) operations on the character data while ensuring secure access through user authentication and authorization.
+
+## Features
+
+- **User Authentication & Authorization:** Secure endpoints using JWT (JSON Web Tokens) to ensure that only authenticated users can perform certain actions.
+
+- **Character Management:** Full CRUD functionality for managing LOTR characters, including creating, reading, updating, and deleting character records.
+
+- **Modular Architecture:** Clean separation of concerns with models, routes, and middleware, making the codebase easy to understand and extend.
+
+- **Error Handling:** Robust error handling to ensure the API responds gracefully to invalid requests and server errors.
 
 ## Installation
 
@@ -122,3 +134,4 @@ To run the tests, use the following command:
 
 ```bash
 npm test
+```
