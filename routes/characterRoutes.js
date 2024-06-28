@@ -28,7 +28,7 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
   try {
     const character = await Character.findById(req.params.id);
-    if (!character) return res.status(404).json({ error: "Character not found" });
+    if (!character) return res.status(404).json({ error: "Character not found!" });
     res.status(200).json(character);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -39,7 +39,7 @@ router.get("/:id", async (req, res) => {
 router.put("/:id", async (req, res) => {
   try {
     const character = await Character.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    if (!character) return res.status(404).json({ error: "Character not found" });
+    if (!character) return res.status(404).json({ error: "Character not found!" });
     res.status(200).json(character);
   } catch (err) {
     res.status(400).json({ error: err.message });
@@ -50,8 +50,8 @@ router.put("/:id", async (req, res) => {
 router.delete("/:id", async (req, res) => {
   try {
     const character = await Character.findByIdAndDelete(req.params.id);
-    if (!character) return res.status(404).json({ error: "Character not found" });
-    res.status(200).json({ message: "Character deleted" });
+    if (!character) return res.status(404).json({ error: "Character not found!" });
+    res.status(200).json({ message: "Character deleted!" });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

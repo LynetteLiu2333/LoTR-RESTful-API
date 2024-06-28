@@ -15,7 +15,7 @@ fs.createReadStream("./LOTR_data/lotr_characters.csv")
     characters.push(row);
   })
   .on("end", () => {
-    console.log("CSV file successfully processed");
+    console.log("CSV file successfully processed.");
     insertCharactersIntoMongoDB(characters);
   });
 
@@ -26,7 +26,7 @@ const insertCharactersIntoMongoDB = async (characters) => {
     console.log("MongoDB connected...");
     
     await Character.insertMany(characters);
-    console.log("Data inserted successfully");
+    console.log("Data inserted successfully.");
   } catch (err) {
     console.error("Error inserting data:", err.message);
   } finally {
