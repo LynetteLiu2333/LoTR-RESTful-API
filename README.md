@@ -4,6 +4,8 @@
 
 - [Overview](#overview)
 - [Features](#features)
+- [Built with](#built-with)
+- [Links](#links)
 - [Installation](#installation)
 - [Endpoints](#endpoints)
 - [Testing](#testing)
@@ -21,6 +23,16 @@ The Lord of the Rings (LOTR) Passport API is a RESTful web service designed to m
 - **Modular Architecture:** Clean separation of concerns with models, routes, and middleware, making the codebase easy to understand and extend.
 
 - **Error Handling:** Robust error handling to ensure the API responds gracefully to invalid requests and server errors.
+
+## Built with
+
+- Node.js
+- Express.js
+- MongoDB
+
+## Links
+
+- Deployed API: [https://lotr-restful-api.onrender.com]
 
 ## Installation
 
@@ -128,4 +140,4 @@ The API includes the following endpoints for user registration, login, and chara
 
 ## Testing
 
-All endpoints have been tested using Postman. Please click the [**link**](https://documenter.getpostman.com/view/36578609/2sA3duFDM9) to view the complete documentation for the endpoint testing.
+All endpoints have been tested using Postman. Please click the [**link**](https://documenter.getpostman.com/view/36578609/2sA3dxCqyS) to view the complete documentation for the endpoint testing.
